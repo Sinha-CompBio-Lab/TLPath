@@ -1,0 +1,87 @@
+# Consolidated Medical Terms (similar terms combined)
+mucosa               | 3510      # (mucosa 3106 + mucosal 172 + submucosal 311 + submucosa 232)
+muscularis           | 2268
+congestion           | 2507
+fibrosis             | 3334      # (fibrosis 2408 + fibrous 926 )
+fibroadipose         | 296 
+fibrovascular        | 283 
+fibrofatty           | 201 
+fibromuscular        | 133
+autolysis            | 2605      # (autolyzed 1725 + autolysis 880)
+squamous             | 1425
+epithelium           | 1198
+adipose              | 1072
+interstitial         | 889
+lymphoid             | 888
+dermal               | 719       
+epidermis            | 209
+gland                | 1212      # (glands 684 + glandular 528) 
+ducts                | 684       # (ductal 367 + ducts 317)   
+stroma               | 837       # (stroma 675 + stromal 162)
+atherosis            | 923
+cortex               | 499
+spermatogenesis      | 978
+sloughed             | 433
+foci                 | 398
+islets               | 392
+vessel               | 756       # (vessels 336 + vascular 219 + artery 201)
+hyperplasia          | 702
+glomeruli            | 357       # (glomeruli 297 + glomerulosclerosis 60)
+plaque               | 561       # (plaque 292 + plaques 269)
+atrophy              | 909       # (atrophy 629 + atrophic 280)
+adenohypophysis      | 434       # (adenohypophysis 249 + neurohypophysis 185)
+nerve                | 247
+atherosclerosis      | 588
+ischemic             | 205
+medulla              | 203
+tubules              | 201
+inflammation         | 411
+propria              | 196
+sclerosis            | 674      # (sclerosis 185 + sclerotic 489)
+lesions              | 177
+hemorrhage           | 399
+adventitia           | 162
+subcutaneous         | 162
+myometrium           | 157
+macrovesicular       | 155
+parenchyma           | 151
+calcification        | 789       # (calcification 627 + calcified 162)
+gynecomastoid        | 328
+intimal              | 145
+capsule              | 143
+macrophages          | 271
+alveolar             | 135
+saponification       | 315
+fascia               | 124
+corpora              | 122
+endometrium          | 120
+edema                | 299
+nodule               | 262       # (nodules 112 + nodularity 150)
+gastric              | 154       # (gastric 107 + gastritis 47)
+emphysema            | 156
+cyst                 | 152
+pneumonia            | 100
+scarring             | 85
+monckeberg           | 77
+atelectasis          | 72
+hashimoto            | 71
+infarction           | 71
+hyalinization        | 71
+hypertrophy          | 59
+cirrhosis            | 59
+necrosis             | 58
+goiter               | 55
+esophagitis          | 53
+hypereosinophilia    | 48
+metaplasia           | 47
+desquamation         | 36
+diabetic             | 32
+nephritis            | 59        # (nephritis 31 + nephrosclerosis 28)
+adenoma              | 29
+amylacea             | 27
+prostatitis          | 25
+hepatitis            | 23
+hypoxic              | 21
+pancreatitis         | 20
+mastopathy           | 18
+dysplasia            | 4
