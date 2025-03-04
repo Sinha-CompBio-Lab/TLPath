@@ -11,8 +11,22 @@ First clone this repo and cd into the directory:
 ```
 git clone https://github.com/Sinha-CompBio-Lab/TLPath.git
 cd TLPath
+conda env create -f env.yaml
+conda activate TLPath
 ```
-
 ### 1. Get Access 
+To preprocess and get the UNI features from the H&e slides you need access to UNI model weight. Please follow the instructions [here](https://github.com/mahmoodlab/UNI) to get access to UNI weights. For ease of reproducibility we have provided the  whole slide level features which are mean aggregation of patch level features with this code. You may find it at `{ZENODO_PLACEHOLDER}`
 
 ### 2. Running Inference
+To run an inference on the UNI features please follow the guide in the notebook `run_inference.ipynb`
+
+### 3. Training TLPath
+To train TLPath please follow the notebook `train_TLPath.ipynb`. TLPath can also be trained using CLI. 
+Telomere data file can be downloaded from : https://gtexportal.org/home/downloads/egtex/telomeres
+`python /tlpath/model.py --telomere-file /path/to/telomere.csv --features_dir /path/to/features --output-dir /path/to/output --config /path/to/config.yaml --tissues-to-skip Tissue1 Tissue2`
+
+- `--telomere-file` → Path to the telomere length data CSV file.
+- `--features_dir` → Directory containing patch features.
+- `--output-dir (optional)` → Directory to save results and models (default: results/TLPath).
+- `--config (optional)` → Path to a YAML configuration file.
+- `--tissues-to-skip (optional)` → List of tissues to exclude from analysis.(default: None)
