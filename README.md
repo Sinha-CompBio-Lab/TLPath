@@ -21,8 +21,8 @@ To pre-process and get the UNI features from the H&E slides you need access to U
 To run an inference on the UNI features please follow the guide in the notebook: `run_inference.ipynb`
 
 ### 3. Training TLPath
-To train TLPath please follow the notebook: `train_TLPath.ipynb`. TLPath can also be trained via CLI. 
 GTEx telomere data is publicly available and can be downloaded from: https://gtexportal.org/home/downloads/egtex/telomeres  
+To train TLPath please follow the notebook: `train_TLPath.ipynb`. TLPath can also be trained via CLI. 
 `python /tlpath/model.py --telomere-file /path/to/telomere.csv --features_dir /path/to/features --output-dir /path/to/output --config /path/to/config.yaml --tissues-to-skip Tissue1 Tissue2`
 
 - `--telomere-file` → Path to the telomere length data CSV file.
