@@ -15,7 +15,7 @@ conda env create -f env.yaml
 conda activate TLPath
 ```
 ### 1. Get Access 
-To pre-process and get the UNI features from the H&E slides you need access to UNI model weights. Please follow the instructions [here](https://github.com/mahmoodlab/UNI) to get access to UNI weights. For ease of reproducibility we have provided the whole slide level features which are the mean aggregated patch level features. You may find it at `{ZENODO_PLACEHOLDER}`
+To pre-process and get the UNI features from the H&E slides you need access to UNI model weights. Please follow the instructions [here](https://github.com/mahmoodlab/UNI) to get access to UNI weights. For ease of reproducibility we have provided the whole slide level features which are the mean aggregated patch level features. You may find it on [Zenodo](https://zenodo.org/records/19259252)
 
 ### 2. Running Inference
 To run an inference on the UNI features please follow the guide in the notebook: `run_inference.ipynb`
